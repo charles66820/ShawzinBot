@@ -57,10 +57,10 @@ namespace ShawzinBot
 
         private static Dictionary<int, Keys> shawzinFrets = new Dictionary<int, Keys>
         {
-            { 0, Keys.None }, // No Fret
-            { 1, Keys.Left }, // Sky Fret
-            { 2, Keys.Down }, // Earth Fret
-            { 3, Keys.Right }, // Water Fret
+            { 0, Keys.None }, // Sky Fret
+            { 1, Keys.XButton1 }, // Sky Fret
+            { 2, Keys.MButton }, // Earth Fret
+            { 3, Keys.XButton2 }, // Water Fret
         };
 
         private static Dictionary<int, Keys> shawzinStrings = new Dictionary<int, Keys>
